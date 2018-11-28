@@ -1,0 +1,116 @@
+body{
+	background-image: url('fondo.jpg');
+	
+
+}
+#antoni{
+	background-image: url('fondoregistro.jpg');
+	background-position: 60% center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #6999;
+}
+.formulario{
+	background-color: black;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	width: 50%;
+	padding: 15px;
+	position: relative;
+    margin:  auto;
+    max-width: 300px;
+}
+.form-control{
+	border-radius: 30px;
+}
+.form-header{
+	text-align: center;
+	color: white;
+	width: 50%;
+	padding: 15px;
+	position: relative;
+    margin: 40px auto auto auto;
+    max-width: 300px;
+}
+.boton1{
+	background-color: #28a745;
+	border-radius: 30px;
+	border-style: groove;
+	border: 0;
+	height: 40px;
+	width: 80%;
+	color: white;
+    
+}
+#boton2{
+	border-radius: 50px;
+}
+#box{
+	border-radius: 50px;
+}
+#parrafo1{
+	margin: 60px; 
+	background-color: #BBBBBB; 
+	padding: 10px; 
+	border-radius: 20px;
+	opacity: 0.5; 
+}
+#parrafo1-1{
+	position: absolute;
+	z-index: 0;
+	margin: 30px;
+
+ 	background-color: #FFFFFF;
+	font-weight: bold;
+	color: black;
+    border-radius: 30px;
+    opacity: 0.5;
+    padding: 30px;
+}
+
+.card{
+	width: 18rem; 
+	background-color: #424242;
+	color: white;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+	
+}
+.carrito{
+	max-height: 40px;
+	max-width: 40px;
+}
+.dropdown{
+	margin: 10px;
+	float: left;
+}
+.dropdown-menu{
+	
+	text-align: center;
+	width: 230px;
+	height: 250px;
+	margin-top: 18px;
+	border-radius: 0px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-color: #545b62;
+	background-color: #545b62;
+	color: white;
+}
+.dropdown-elementos{
+	text-align: left;
+	padding: 10px;
+	margin-left: -30px;
+}
+.btn{
+	text-align: right; 
+}
+@media handheld, only screen and (max-width: 1024px) and (min-width:782px) {
+	.search_and_share{
+	display:none;
+}
+}
