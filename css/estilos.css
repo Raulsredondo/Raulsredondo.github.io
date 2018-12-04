@@ -44,8 +44,12 @@ body{
 	color: white;
     
 }
+
+
+}
 #boton2{
 	border-radius: 50px;
+	margin-bottom: 5%;
 }
 #box{
 	border-radius: 50px;
@@ -58,7 +62,7 @@ body{
 	opacity: 0.5; 
 }
 #parrafo1-1{
-	position: absolute;
+	position: relative;
 	z-index: 0;
 	margin: 30px;
 
@@ -90,11 +94,12 @@ body{
 }
 .dropdown-menu{
 	
-	text-align: center;
+	text-align: left;
 	width: 230px;
 	height: 250px;
 	margin-top: 18px;
 	border-radius: 0px;
+	margin-left: 10px;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-top-color: #545b62;
@@ -103,14 +108,98 @@ body{
 }
 .dropdown-elementos{
 	text-align: left;
-	padding: 10px;
-	margin-left: -30px;
+	padding-left: 25px; 
 }
 .btn{
 	text-align: right; 
 }
-@media handheld, only screen and (max-width: 1024px) and (min-width:782px) {
+@media handheld, only screen and (max-width: 500px) and (min-width:300px){
+	.dropdown-menu{
+	
+	text-align: left;
+	width: 230px;
+	height: 250px;
+	margin-top: 68px;
+	border-radius: 0px;
+	margin-left: 7px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-color: #545b62;
+	background-color: #545b62;
+	color: white;
+}
+
+}
+@media handheld, only screen and (max-width: 1066px) and (min-width:782px) {
 	.search_and_share{
 	display:none;
 }
+}
+footer {
+	background-color: #292c2f;
+	height: ;
+  color: white;
+  padding: 15px;
+  color: white;
+}
+
+.main1 { 
+  display:flex;
+  margin:0 auto;
+}
+
+a img:hover {
+    color: #fff;
+}
+.redes-footer{
+	margin-top: 5px;
+}
+.correo{
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+.email{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 80%;
+	padding: 18px;
+}
+.texto{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 80%;
+	padding: 18px;
+}
+.boton3{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+	margin-right: 20%;
 }

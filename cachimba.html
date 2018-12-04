@@ -4,24 +4,14 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title Page</title>
+    <title>Hookah Hot</title>
+    <link rel="icon" href="img\Imagen1.png">
     <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
     <link rel="stylesheet" href="css\estilos.css">
+    <link rel="stylesheet" href="css\footer-distributed-with-contact-form.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bootstrap\js\bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAip6D8pV9oB1-hibkLyrkykwUu3vILRpc",
-    authDomain: "web-cachimbas.firebaseapp.com",
-    databaseURL: "https://web-cachimbas.firebaseio.com",
-    projectId: "web-cachimbas",
-    storageBucket: "web-cachimbas.appspot.com",
-    messagingSenderId: "572946028375"
-  };
-  firebase.initializeApp(config);
-</script>
  
 </head>
 <body>
@@ -35,16 +25,13 @@
   <div class="collapse navbar-collapse" id="navb">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="Index.html">Cuenta</a>
+        <a class="nav-link" href="index.html">Cuenta</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="aboutus.html">Sobre nosotros</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="cachimba.html">Cachimbas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">Cazoletas</a>
       </li>
       <li class="nav-item search_and_share">
         <a class="nav-link disabled" href="javascript:void(0)">Accesorios</a>
@@ -65,10 +52,11 @@
         <a class="dropdown-item" href="#">Action</a>
         <a class="dropdown-item" href="#">Another action</a>
         <a class="dropdown-item" href="#">Something else here</a>
-        <p>Elementos seleccionados:</p>
-        <p>X Elementos</p>
-        <br>
-        <button class="btn btn-success my-2 my-sm-0" type="button" id="boton2">Buy</button>
+        <div class="dropdown-elementos">
+          <p>Elementos seleccionados:</p>
+          <p>X Elementos</p>
+          <button class="btn btn-success my-2 my-sm-0" type="button" id="boton2">Buy</button>
+        </div>
       </div>
     </div>
     <form class="form-inline my-2 my-lg-0">
@@ -89,8 +77,6 @@
         <div class="carousel-item active">
           <img class="d-block w-100" src="img\carrusel1-1.jpg" alt="First slide" style="min-height: 150px">
           <div class="carousel-caption">
-            <h3>Chicago</h3>
-            <p>Thank you, Chicago!</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -113,83 +99,115 @@
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/cachimba1.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">CACHIMBA ODUMAN N7 PRO</h5>
+            <p class="card-text">tamaño: 30 Cm<br>Base: Cristal soplado a mano<br>Mastil: acero<br>Precio: 170€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">STARBUZZ HOOKAH CARABINE ARTIC FROST</h5>
+            <p class="card-text">Tamaño: 50cm. <BR>Base: Cristal y Aleación. <BR>Mastil: Aleación de metales.<br>Precio: 270€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/cachimba3.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">CACHIMBA MIG MINI 24 KARAT ROSÉGOLD</h5>
+            <p class="card-text">Tamaño: 45Cm.<br>Base: De cristal de Bohemia.<BR>Mastil: acero inoxidable.<br>Precio: 1.200€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/cachimba4.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">CACHIMBA ODUMAN N5 JUNIOR</h5>
+            <p class="card-text">tamaño: 30 Cm<br>Base: Cristal<br>Mastil: aluminio<br>Precio: 80€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/cachimba5.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">CACHIMBA HOOKAH FLAME TRINITY BLACK</h5>
+            <p class="card-text">Tamaño: 35Cm. <br>Base: Cristal. <br>Mástil: Aluminio.<br>Precio: 100€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="img/cachimba2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/cachimba6.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">CACHIMBA EMBERY MONO BLONDE JS</h5>
+            <p class="card-text">Tamaño: 50Cm.<br>Base: Cristal.<BR>Mastil: Bambu.<br>Precio: 350€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="img/cachimba7.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CACHIMBA EL-BADIA C5 PINK</h5>
+            <p class="card-text">Tamaño: 43Cm.<BR>Base: De cristal.<BR>Mastil: Aluminio.<br>Precio: 60€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/cachimba8.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CACHIMBA EL-BADIA C5 VERDE</h5>
+            <p class="card-text">Tamaño: 43Cm.<BR>Base: De cristal.<BR>Mastil: Aluminio.<br>Precio: 60€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/cachimba9.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CACHIMBA ODUMAN N9 TARANTULA</h5>
+            <p class="card-text">Tamaño: 20Cm.<br>Base: Cristal.<BR>Mastil: acero inoxidable.<br>Precio: 90€</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="" src="img\Imagen1.png" alt="" style="width: 30%;">
+         <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
+         <h6 class="text-muted">
+            Carrera 8h No. 166-71 Local 2<br>
+            Santa Cruz de la Ronda.<br>
+            Teléfonos: 3115988953 – 3112641818.<br>
+            </h6>
+         <div class="redes-footer">
+            <a href="https://www.facebook.com/"><img src="img/facebook.png" style="width: 8%;"></a>
+            <a href="https://twitter.com/"><img src="img/twitter.png" style="width: 8%;"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.png" style="width: 7%;"></a>
+          </div>   
+          <p class="text-muted small">Hookah Hot &copy; 2018</p> 
+      </div>
+      <div class="col-md-6 ">
+         <h6 class="text-muted lead">CONTACTO:</h6>
+         <form action="#" method="post" class="correo">
+            <input type="text" name="email" placeholder="Email" class="email" />
+            <br>
+            <textarea name="message" placeholder="Message" class="texto"></textarea>
+            <br>
+            <button class="boton3">Enviar</button>
+          </form>
+      </div>
+    </div>  
+  </div>
+</footer>
 </body>
 </html>
