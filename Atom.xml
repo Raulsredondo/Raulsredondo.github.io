@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>El tiempo en Segovia</title>
+<link href="https://www.tiempo.es/" rel="alternate" type="text/html" />
+<updated>2018-06-11T18:30:02Z</updated>
+<author>
+<name>Raul Sanchez Redondo</name>
+</author>
+<id>https://www.tiempo.es/</id>
+<entry>
+<title>Predicciones</title>
+<id>https://www.tiempo.es/prediction/</id>
+<link href="https://www.eltiempo.es/segovia.html" />
+<summary>Prediccion Meteorologica</summary>
+<updated>2018-06-11T18:30:02Z</updated>
+</entry>
+</feed>

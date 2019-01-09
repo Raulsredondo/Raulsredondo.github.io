@@ -1,0 +1,14 @@
+<rss version="2.0">
+<channel>
+<title>El tiempo en Segovia</title>
+<link> https://www.tiempo.es/</link>
+<description>Esto es una feed de contenidos</description>
+<language>es-Es</language>
+<item>
+<title>EL Tiempo en Segovia</title>
+<guid>
+https://www.eltiempo.es/segovia.html</guid>
+<description>El tiempo en Segovia</description>
+</item>
+</channel>
+</rss>
